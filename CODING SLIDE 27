@@ -1,0 +1,26 @@
+package selfprogramming;
+import java.util.Scanner;
+class slide27 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		boolean found = false;
+		boolean word;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		while (!found){
+			System.out.println("The system is found");
+			System.out.println("Please enter the word");
+			word = scan.nextBoolean();
+			System.out.println("The word is" + word);
+			
+		if(found = word) 
+			found = true;
+		}
+
+
+	}
+
+}
