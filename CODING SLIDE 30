@@ -1,0 +1,20 @@
+package selfprogramming;
+
+class slide30 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int i=1;
+		 do {	
+			   if ((i % 2)== 0)
+				System.out.println("The balance is" +i);
+			   else 
+				   System.out.println("Other balance");
+			   i++;
+		    } while(i<5);
+
+
+	}
+
+}
